@@ -12,5 +12,5 @@ jobs:
       - name: Install NPM dependencies
         run: npm ci
       - name: Lint code
-        run: node_modules/.bin/eslint ./src/**/*.js
+        run: npm run lint
       

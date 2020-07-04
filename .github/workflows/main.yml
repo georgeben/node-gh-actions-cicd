@@ -1,5 +1,7 @@
 name: CICD-Pipeline
 on: [ push ]
+env:
+  SECRET_MESSAGE: "Testing testing testing" 
 jobs:
   lint:
     runs-on: ubuntu-latest

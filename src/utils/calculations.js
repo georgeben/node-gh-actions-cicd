@@ -1,1 +1,1 @@
-exports.isEven = (number) => (number % 2) === 1;
+exports.isEven = (number) => (number % 2) === 0;
